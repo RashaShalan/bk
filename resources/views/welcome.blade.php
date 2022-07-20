@@ -1,0 +1,9 @@
+@extends('master')
+@section('mainContent')
+<script>
+    $().ready(function(){
+        $('.add').fadeOut('fast');
+        $('.view').fadeOut('fast');
+    })
+    </script>
+@endsection
